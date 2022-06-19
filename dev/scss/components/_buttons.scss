@@ -1,0 +1,134 @@
+
+.btn{
+  font-size: $btn-font-size;
+  line-height: $btn-line-height;
+  font-weight: $semibold;
+
+  >li{
+    padding: 0 10px;
+  }
+
+   &--button_list{
+    align-items: center;
+    @media (min-width:1267px) {
+      margin: 25px 0 25px 300px;
+    }
+
+    @media (min-width:965px) {
+      display: $display;
+    }
+
+    @media (min-width:412px) {
+      .white{
+        width: 120px;
+        height: 45px;
+        background: white;
+        border: 1px solid grey;
+        text-align: center;
+        padding: 14px 30px;
+      }
+  
+      .orange{
+        width: 120px;
+        height: 45px;
+        background: #FF6336;
+        padding: 15px 20px;
+        color: white;
+
+        &:hover{
+          color: $blue;
+        }
+      }
+    }
+
+    @media (max-width:411px) {
+      .white{
+        width: 60px;
+        height: 25px;
+        background: white;
+        border: 1px solid grey;
+        text-align: center;
+        padding:5px 15px;
+      }
+  
+      .orange{
+        width: 60px;
+        height: 25px;
+        background: #FF6336;
+        padding: 5px 10px;
+        color: white;
+      }
+    }
+   }
+
+   &--button_list_1{
+
+    @media (min-width:1040px) {
+      display: $display;
+      margin: 0 0 20px 0;
+    }
+
+
+
+    .orange{
+      width: 120px;
+      height: 45px;
+      background: #FF6336;
+      padding: 15px 30px;
+      color: white;
+      text-decoration: none;
+
+      &:hover{
+        color: $blue;
+       }
+    }
+
+    .white{
+      width: 120px;
+      height: 45px;
+      background: white;
+      border: 1px solid grey;
+      padding: 15px 7px;
+      text-decoration: none;
+    }
+   }
+
+   &--button_list_2{
+    display: $display;
+    justify-content: center;
+
+    .orange{
+      width: 120px;
+      height: 45px;
+      background: #FF6336;
+      padding: 20px 15px;
+      color: white;
+
+      &:hover{
+        color: $blue;
+       }
+    }
+  } 
+
+    &--button_list_3{
+      display: $display;
+      justify-content: center;
+      margin: 20px 0 0 0;
+
+    .black{
+      width: 160px;
+      height: 60px;
+      background: $black;
+      padding: 20px 15px;
+      color: white;
+      display: $display;
+      justify-content: center;
+      align-items: center;
+
+      &:hover{
+        color: $blue;
+       }
+    }
+  }
+}
+

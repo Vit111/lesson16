@@ -1,0 +1,92 @@
+//colors
+$black: #000;
+$white: white;
+$grey: grey;
+$blue: blue;
+$orange: #FF6336;
+$worange: #FF9C7D;
+$milk: #FFF8E4;
+$wblue: #C9E8F2;
+$brown: #DABC98;
+$aqua: aqua;
+$footer: #EEEEEE;
+
+// fonts name
+$base-font: 'Graphik LC TT';
+$icon: 'icomoon';
+
+// Body
+$base-text-color:             $black;
+$base-background-color:       $white ;
+$base-background-body:        $white ;
+$base-background-footer:      $footer;
+$font-size-base:              20px;
+$line-height-base:            30px;
+$base-font-family:            $base-font;
+$base-min-width:              1290px;
+$max-width:                   1440px;
+$m-width:                     500px;
+$m-height:                    500px;
+$min-height :                 9750px;
+$display:                     flex;
+$text-align:                  center;
+$font-style:                  normal;
+$min_box_height:              1000px;
+$padding:                     51px 0;
+
+// base variables
+$base-radius:                 0;
+
+// container settings
+$max-width-center-container:  1290px;
+
+// font weight
+$thin:                        100;
+$light-font:                  300;
+$normal:                      400;
+$medium:                      500;
+$semibold:                    600;
+$bold:                        700;
+$extra:                       800;
+$black-font:                  900;
+
+
+// Buttons
+  // btn default
+  $btn-border-width:                  1px;
+  // $btn-border:                    
+  $btn-border-radius:                 0;
+  // $btn-border-radius-sm:              $base-radius-small;
+  $btn-padding:                       14px 20px;
+  $btn-padding-sm:                    4px 10px ;
+  $btn-font-size:                     16px;
+  $btn-line-height:                   45px;
+
+  $btn-background:                    transparent;
+  $btn-border:                        $btn-border-width solid $grey;
+  $btn-border2:                       $btn-border-width solid $black;
+  $btn-color:                         $grey;
+
+//family
+$font-size: 65px;
+$line-height: 70px;
+$width: 100%;
+
+$max-width: 1440px;
+$min-height : 9750px;
+$height: 100%;
+//base-style
+$base_font_size: 16px;
+$base-color: $black;
+$border-w: 2px;
+$border-s: solid;
+$border-c: $grey;
+
+//button
+$btn-fz: 20px;
+$btn-lh: $btn-fz +2;
+$btn-padding-y: 8px;
+$btn-padding-x: 10px;
+$btn-border: $border-w $border-s $border-c;
+$btn-h: $btn-lh + $border-w + ($btn-padding-y * 2);
+$btn-bg: $grey;

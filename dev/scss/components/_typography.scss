@@ -1,0 +1,68 @@
+a{
+    text-decoration: none;
+    color: $black;
+}
+
+a:hover{
+   color: $blue;
+}
+
+
+h1{
+    color: $black;
+    font-family: $base-font;
+    font-style: $font-style;
+
+    
+    @media (min-width:768px) {
+      font-weight: $normal;
+      font-size: $font-size-base + 25px;
+      line-height: $line-height-base + 20px;
+    }
+    
+    @media (min-width:1267px) {
+      font-weight: $semibold;
+      font-size: $font-size-base + 45px;
+      line-height: $line-height-base + 40px;
+    }
+  }
+  
+h2 {
+    font-weight: $semibold;
+    font-size: $font-size-base + 30px;
+    line-height: $line-height-base + 30px;
+  }
+  
+  h3 {
+    font-weight: $light-font;
+    font-size: $font-size-base;
+    line-height: $line-height-base;
+
+    @media (min-width:768px) {
+      font-weight: $semibold;
+      font-size: $font-size-base + 20px;
+      line-height: $line-height-base + 20px;
+    }
+  }
+  
+  h4 {
+    font-weight: $semibold;
+    font-size: $font-size-base;
+    line-height: $line-height-base;
+  }
+  
+  p {
+    font-family: $base-font;
+    font-style: $font-style;
+    font-weight: $normal;
+    font-size: $font-size-base;
+    line-height: $line-height-base;
+  }
+  
+  span {
+    font-family: $base-font;
+    font-style: $font-style;
+    font-weight: $normal;
+    font-size: $font-size-base - 5px;
+    line-height: $line-height-base - 5px;
+  }

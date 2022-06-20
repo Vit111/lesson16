@@ -7,11 +7,17 @@ a:hover{
    color: $blue;
 }
 
+img{
+  max-width: 100%;
+}
 
 h1{
     color: $black;
     font-family: $base-font;
     font-style: $font-style;
+    font-weight: $normal;
+    font-size: $font-size-base + 10px;
+    line-height: $line-height-base + 10px;
 
     
     @media (min-width:768px) {
@@ -28,9 +34,15 @@ h1{
   }
   
 h2 {
-    font-weight: $semibold;
-    font-size: $font-size-base + 30px;
-    line-height: $line-height-base + 30px;
+    font-weight: $normal;
+    font-size: $font-size-base + 15px;
+    line-height: $line-height-base + 15px;
+
+    @media (min-width:576px) {
+      font-weight: $semibold;
+      font-size: $font-size-base + 30px;
+      line-height: $line-height-base + 30px;
+    }
   }
   
   h3 {
